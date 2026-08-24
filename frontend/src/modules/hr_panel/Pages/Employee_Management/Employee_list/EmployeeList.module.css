@@ -1,0 +1,77 @@
+.pageWrapper {
+  min-height: 100vh;
+}
+
+.tableWrapper {
+  overflow-x: auto;
+}
+
+.employeeImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #e2e8f0;
+}
+
+.statCard {
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+.statCard h3 {
+  color: #64748b;
+  font-size: 14px;
+}
+
+.statCard h2 {
+  margin-top: 10px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.activeStatus {
+  background: #dcfce7;
+  color: #15803d;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.inactiveStatus {
+  background: #fee2e2;
+  color: #dc2626;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.viewBtn {
+  background: #2563eb;
+  color: white;
+  padding: 7px 14px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.viewBtn:hover {
+  background: #1d4ed8;
+}
+
+.editBtn {
+  background: #16a34a;
+  color: white;
+  padding: 7px 14px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.editBtn:hover {
+  background: #15803d;
+}

@@ -1,0 +1,91 @@
+.pageWrapper {
+  min-height: 100vh;
+  background: #f8fafc;
+  padding: 40px 20px;
+}
+
+.card {
+  max-width: 1200px;
+  margin: auto;
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.input {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #dbe3ea;
+  border-radius: 10px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.input:focus {
+  border-color: #2563eb;
+}
+
+.componentRow {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr 1fr auto;
+  gap: 15px;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.addButton {
+  background: #2563eb;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.cancelButton {
+  background: #dc2626;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: 0.3s;
+}
+
+.cancelButton:hover {
+  background: #b91c1c;
+}
+
+.generateButton {
+  background: #7c3aed;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.modalOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.5);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 999;
+}
+
+.modal {
+  width: 900px;
+  max-height: 90vh;
+  overflow-y: auto;
+
+  background: white;
+  border-radius: 12px;
+
+  padding: 30px;
+}
